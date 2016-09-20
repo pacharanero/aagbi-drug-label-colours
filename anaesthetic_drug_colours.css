@@ -1,23 +1,6 @@
 /* Based on the AABGI/RCoA/FICM/ICS/CEM 2014 review guidance on syringe colours in critical care areas */
 /* http://www.aagbi.org/sites/default/files/SYRINGE%20LABELLING%202014.pdf */
 
-/* this stuff needs to go in another css file */
-.sticker {
-    font-family: Arial;
-    text-align: center;
-    padding: 1px;
-    margin: 5px;
-    border-radius: 15px;
-    width: 300px;
-    height: 90px;
-    line-height: 90%;
-}
-
-.column {
-  display: inline;
-}
-
-
 /* Anti-emetic: Pantone 156 (salmon) */
 .antiemetic_drug {
     background-color: #EFBE7D
