@@ -1,58 +1,81 @@
-// Based on the AABGI/RCoA/FICM/ICS/CEM 2014 review guidance on syringe colours in critical care areas
-// http://www.aagbi.org/sites/default/files/SYRINGE%20LABELLING%202014.pdf
+/* Based on the AABGI/RCoA/FICM/ICS/CEM 2014 review guidance on syringe colours in critical care areas */
+/* http://www.aagbi.org/sites/default/files/SYRINGE%20LABELLING%202014.pdf */
 
-// Anti-emetic: Pantone 156 (salmon)
+/* this stuff needs to go in another css file */
+.sticker {
+    font-family: Arial;
+    text-align: center;
+    padding: 1px;
+    margin: 5px;
+    border-radius: 15px;
+    width: 300px;
+    height: 90px;
+    line-height: 90%;
+}
+
+.column {
+  display: inline;
+}
+
+
+/* Anti-emetic: Pantone 156 (salmon) */
 .antiemetic_drug {
-    color: #EFBE7D
+    background-color: #EFBE7D
 }
 
-// Induction agent: Pantone process yellow
+/* Induction agent: Pantone process yellow */
 .induction_agent_drug {
-    color: #ffe800
+    background-color: #ffe800
 }
 
-// Hypnotic: Pantone 151 (orange)
+/* Hypnotic: Pantone 151 (orange) */
 .hypnotic_drug {
-    color: #FF8200
+    background-color: #FF8200
 }
 
-// placeholder for hypnotic_antagonist
+/* placeholder for hypnotic_antagonist */
 
-// Neuromuscular blocking drug: Pantone 805
+/* Neuromuscular blocking drug: Pantone 805 */
 .neuromuscular_blocking_drug {
-    color: #ff7477
+    background-color: #ff7477
 }
 
-// Neuromuscular blocking drug antagonist: Pantone 805, white diagonal stripes
+/* Neuromuscular blocking drug antagonist: Pantone 805, white diagonal stripes */
 .neuromuscular_blocking_drug_antagonist {
-    color: #ff7477
+    background: repeating-linear-gradient(
+      -45deg,
+      #ff7477,
+      #ff7477 7px,
+      #ffffff 7px,
+      #ffffff 20px
+    );
 }
 
-// Opioid drug: Pantone 297 (blue)
+/* Opioid drug: Pantone 297 (blue) */
 .opioid_drug {
     color: #71C5E8
 }
 
-// placeholder for opioid_antagonist_drug
+/* placeholder for opioid_antagonist_drug */
 
-// Vasopressor: Pantone 256 (violet)
+/* Vasopressor: Pantone 256 (violet) */
 .vasopressor_drug {
    color: #D6BFDD
 }
 
-// placeholder for hypotensive_agent_drug
+/* placeholder for hypotensive_agent_drug */
 
-// Local Anaesthetics: Pantone 401 (grey)
+/* Local Anaesthetics: Pantone 401 (grey) */
 .local_anaesthetics_drug {
     color: #AFA9A0
 }
 
-// Anticholinergic: Pantone 367 (green)
+/* Anticholinergic: Pantone 367 (green) */
 .anticholinergic_drug {
     color: #A4D65E
 }
 
-//use for drugs which are not listed elsewhere, including antibiotics, oxytocin, heparin, protamine
+/* use for drugs which are not listed elsewhere, including antibiotics, oxytocin, heparin, protamine */
 .other_drug_agents {
     color: #ffffff
 }
