@@ -1,0 +1,16 @@
+/* sytling for the stickers shapes in the demo page */
+
+.sticker {
+    font-family: Arial;
+    text-align: center;
+    padding: 1px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 220px;
+    height: 70px;
+    line-height: 90%;
+}
+
+.column {
+  display: inline
+}
